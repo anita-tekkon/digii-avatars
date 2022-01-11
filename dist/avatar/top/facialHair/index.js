@@ -22,6 +22,7 @@ var BeardMedium_1 = require("./BeardMedium");
 var Blank_1 = require("./Blank");
 var MoustacheFancy_1 = require("./MoustacheFancy");
 var MoustacheMagnum_1 = require("./MoustacheMagnum");
+var BeardTest_1 = require("./BeardTest");
 var options_1 = require("../../../options");
 var FacialHair = /** @class */ (function (_super) {
     __extends(FacialHair, _super);
@@ -35,7 +36,8 @@ var FacialHair = /** @class */ (function (_super) {
             React.createElement(BeardLight_1.default, null),
             React.createElement(BeardMajestic_1.default, null),
             React.createElement(MoustacheFancy_1.default, null),
-            React.createElement(MoustacheMagnum_1.default, null)));
+            React.createElement(MoustacheMagnum_1.default, null),
+            React.createElement(BeardTest_1.default, null)));
     };
     return FacialHair;
 }(React.Component));

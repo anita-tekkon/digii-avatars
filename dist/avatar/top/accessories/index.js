@@ -22,7 +22,9 @@ var Prescription01_1 = require("./Prescription01");
 var Prescription02_1 = require("./Prescription02");
 var Round_1 = require("./Round");
 var Sunglasses_1 = require("./Sunglasses");
+var SunglassesTest_1 = require("./SunglassesTest");
 var Wayfarers_1 = require("./Wayfarers");
+var BlackPrescription_1 = require("./BlackPrescription");
 var options_1 = require("../../../options");
 var Accessories = /** @class */ (function (_super) {
     __extends(Accessories, _super);
@@ -37,7 +39,9 @@ var Accessories = /** @class */ (function (_super) {
             React.createElement(Prescription02_1.default, null),
             React.createElement(Round_1.default, null),
             React.createElement(Sunglasses_1.default, null),
-            React.createElement(Wayfarers_1.default, null)));
+            React.createElement(Wayfarers_1.default, null),
+            React.createElement(SunglassesTest_1.default, null),
+            React.createElement(BlackPrescription_1.default, null)));
     };
     return Accessories;
 }(React.Component));

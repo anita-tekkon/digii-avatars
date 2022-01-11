@@ -6,7 +6,9 @@ import Prescription01 from './Prescription01'
 import Prescription02 from './Prescription02'
 import Round from './Round'
 import Sunglasses from './Sunglasses'
+import SunglassesTest from './SunglassesTest'
 import Wayfarers from './Wayfarers'
+import BlackPrescription from './BlackPrescription'
 import { AccessoriesOption, Selector } from '../../../options'
 
 export default class Accessories extends React.Component {
@@ -20,6 +22,8 @@ export default class Accessories extends React.Component {
         <Round />
         <Sunglasses />
         <Wayfarers />
+        <SunglassesTest/>
+        <BlackPrescription/>
       </Selector>
     )
   }
