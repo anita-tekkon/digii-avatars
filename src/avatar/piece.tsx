@@ -11,6 +11,7 @@ import Eyebrows from './face/eyebrow'
 import Mouth from './face/mouth'
 import Nose from './face/nose'
 import Skin from './Skin'
+import CustomPiece from './custom'
 
 export enum AvatarStyle {
   Circle = 'Circle',
@@ -27,6 +28,7 @@ export interface Props {
 
 export default class PieceComponent extends React.Component<Props> {
   render() {
+    console.log('>>>>', this.props.pieceType)
     return (
       <svg
         style={this.props.style}
@@ -47,6 +49,7 @@ export default class PieceComponent extends React.Component<Props> {
         {this.props.pieceType === 'mouth' && <Mouth />}
         {this.props.pieceType === 'nose' && <Nose />}
         {this.props.pieceType === 'skin' && <Skin maskID="5678" />}
+        {this.props.pieceType === 'custom' && <CustomPiece/>}
       </svg>
     )
   }

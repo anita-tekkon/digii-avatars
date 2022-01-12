@@ -23,6 +23,7 @@ var clothes_1 = require("./clothes");
 var face_1 = require("./face");
 var Skin_1 = require("./Skin");
 var top_1 = require("./top");
+var custom_1 = require("./custom");
 var AvatarStyle;
 (function (AvatarStyle) {
     AvatarStyle["Circle"] = "Circle";
@@ -72,7 +73,8 @@ var Avatar = /** @class */ (function (_super) {
                             React.createElement(clothes_1.default, null),
                             React.createElement(face_1.default, null),
                             React.createElement(top_1.default, null,
-                                React.createElement(accessories_1.default, null))))))));
+                                React.createElement(accessories_1.default, null)),
+                            React.createElement(custom_1.default, null)))))));
     };
     return Avatar;
 }(React.Component));

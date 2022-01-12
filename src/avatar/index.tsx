@@ -6,6 +6,7 @@ import Clothe from './clothes'
 import Face from './face'
 import Skin from './Skin'
 import Top from './top'
+import Custom from './custom'
 
 export enum AvatarStyle {
   Circle = 'Circle',
@@ -114,6 +115,7 @@ export default class Avatar extends React.Component<Props> {
                 <Top>
                   <Accessories />
                 </Top>
+                <Custom/>
               </g>
             </g>
           </g>
