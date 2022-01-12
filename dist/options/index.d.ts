@@ -16,4 +16,5 @@ export declare const EyebrowOption: Option;
 export declare const MouthOption: Option;
 export declare const SkinOption: Option;
 export declare const CustomOption: Option;
+export declare const CustomAccessoryColor: Option;
 export declare const allOptions: Option[];

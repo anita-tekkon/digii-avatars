@@ -1,7 +1,7 @@
 import * as React from 'react'
 import { uniqueId } from 'lodash'
 
-import Colors from '../top/facialHair/Colors'
+import Colors from './Colors'
 
 export default class CustomTest extends React.Component {
   static optionValue = 'CustomTest'
@@ -26,7 +26,7 @@ export default class CustomTest extends React.Component {
     mask3, mask4, mask5, mask6, mask7 } = this
     return (
       <g
-        id='Facial-Hair/Custom-Test'
+        id='Custom/Custom-Test'
         transform='translate(188.000000, 48.000000)'>
         <defs>
     <path id={path1} d="M62.659,31.1l1.022-12.353L63.7,18.5l-.2.112L53.336,24.355a9.374,9.374,0,0,1,3.341,2.126c-1.791,2.142-4.291,6.708-2.143,14.141a48.969,48.969,0,0,0,3.056,7.609c2.438,5.139,3.78,7.971-.126,12.84C51.544,68.447,41.021,68.7,40.914,68.7a1.231,1.231,0,0,0-.146.019V20.4a1.969,1.969,0,0,0-.15-.744,12.084,12.084,0,0,1,5.639.218L39,5.989l-.142-.273-.142.273L31.465,19.872a12.16,12.16,0,0,1,6.07-.127,1.944,1.944,0,0,0-.116.653V68.7c-.87-.031-10.8-.542-16.483-7.628-3.907-4.869-2.564-7.7-.126-12.84a48.881,48.881,0,0,0,3.056-7.609c2.149-7.433-.353-12-2.143-14.141a9.342,9.342,0,0,1,3.341-2.126L14.9,18.614l-.2-.112.019.242L15.741,31.1a9.626,9.626,0,0,1,3.713-2.823c1.29,1.447,3.583,5.1,1.749,11.447a46.358,46.358,0,0,1-2.877,7.131c-2.49,5.251-4.641,9.786.5,16.2,6.671,8.313,17.858,8.657,18.591,8.671v118c0,1,.75,3.207,1.674,3.207s1.675-1.955,1.675-2.956V71.7a1.128,1.128,0,0,0,.166.018h.018c.481-.006,11.868-.256,18.621-8.671,5.141-6.41,2.99-10.945.5-16.2A46.358,46.358,0,0,1,57.2,39.722c-1.834-6.351.458-10,1.747-11.447A9.629,9.629,0,0,1,62.659,31.1Z" />
@@ -60,43 +60,43 @@ export default class CustomTest extends React.Component {
           <use xlinkHref={'#' + path7} />
         </mask>
         <use
-          id='Beardness'
+          id='Custom'
           fill='#252E32'
           fillRule='evenodd'
           xlinkHref={'#' + path1}
         />
         <use
-          id='Beardness'
+          id='Custom'
           fill='#252E32'
           fillRule='evenodd'
           xlinkHref={'#' + path2}
         />
         <use
-          id='Beardness'
+          id='Custom'
           fill='#252E32'
           fillRule='evenodd'
           xlinkHref={'#' + path3}
         />
         <use
-          id='Beardness'
+          id='Custom'
           fill='#252E32'
           fillRule='evenodd'
           xlinkHref={'#' + path4}
         />
         <use
-          id='Beardness'
+          id='Custom'
           fill='#252E32'
           fillRule='evenodd'
           xlinkHref={'#' + path5}
         />
         <use
-          id='Beardness'
+          id='Custom'
           fill='#252E32'
           fillRule='evenodd'
           xlinkHref={'#' + path6}
         />
         <use
-          id='Beardness'
+          id='Custom'
           fill='#252E32'
           fillRule='evenodd'
           xlinkHref={'#' + path7}

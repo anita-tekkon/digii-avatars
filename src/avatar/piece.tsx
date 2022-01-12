@@ -28,7 +28,6 @@ export interface Props {
 
 export default class PieceComponent extends React.Component<Props> {
   render() {
-    console.log('>>>>', this.props.pieceType)
     return (
       <svg
         style={this.props.style}

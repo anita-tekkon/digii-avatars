@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.allOptions = exports.CustomOption = exports.SkinOption = exports.MouthOption = exports.EyebrowOption = exports.EyesOption = exports.GraphicOption = exports.ClotheColorOption = exports.ClotheOption = exports.FacialHairColor = exports.FacialHairOption = exports.HairColorOption = exports.HatColorOption = exports.AccessoriesOption = exports.TopOption = exports.Selector = exports.OptionContext = exports.Option = void 0;
+exports.allOptions = exports.CustomAccessoryColor = exports.CustomOption = exports.SkinOption = exports.MouthOption = exports.EyebrowOption = exports.EyesOption = exports.GraphicOption = exports.ClotheColorOption = exports.ClotheOption = exports.FacialHairColor = exports.FacialHairOption = exports.HairColorOption = exports.HatColorOption = exports.AccessoriesOption = exports.TopOption = exports.Selector = exports.OptionContext = exports.Option = void 0;
 var Option_1 = require("./Option");
 var Option_2 = require("./Option");
 Object.defineProperty(exports, "Option", { enumerable: true, get: function () { return Option_2.default; } });
@@ -64,6 +64,10 @@ exports.CustomOption = new Option_1.default({
     key: 'custom',
     label: '🎨 Custom',
 });
+exports.CustomAccessoryColor = new Option_1.default({
+    key: 'customAccessoryColor',
+    label: 'Custom Accessory Color',
+});
 exports.allOptions = [
     exports.TopOption,
     exports.AccessoriesOption,
@@ -78,5 +82,6 @@ exports.allOptions = [
     exports.EyebrowOption,
     exports.MouthOption,
     exports.SkinOption,
-    exports.CustomOption
+    exports.CustomOption,
+    exports.CustomAccessoryColor
 ];

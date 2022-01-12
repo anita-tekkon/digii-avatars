@@ -74,6 +74,11 @@ export const CustomOption = new Option({
   label: '🎨 Custom',
 })
 
+export const CustomAccessoryColor = new Option({
+  key: 'customAccessoryColor',
+  label: 'Custom Accessory Color',
+})
+
 export const allOptions = [
   TopOption,
   AccessoriesOption,
@@ -88,5 +93,6 @@ export const allOptions = [
   EyebrowOption,
   MouthOption,
   SkinOption,
-  CustomOption
+  CustomOption,
+  CustomAccessoryColor
 ]

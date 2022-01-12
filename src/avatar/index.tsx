@@ -30,7 +30,7 @@ export default class Avatar extends React.Component<Props> {
   render() {
     const { path1, path2, path3, mask1, mask2, mask3 } = this
     const { avatarStyle } = this.props
-    const circle = avatarStyle === AvatarStyle.Circle
+    const transparent = avatarStyle === AvatarStyle.Transparent
     return (
       <svg
         style={this.props.style}
@@ -63,7 +63,8 @@ export default class Avatar extends React.Component<Props> {
             transform="translate(-825.000000, -1100.000000)"
             id="Avataaar/Circle">
             <g transform="translate(825.000000, 1100.000000)">
-              {circle ? (
+              {!transparent ? 
+              (
                 <g
                   id="Circle"
                   strokeWidth="1"
@@ -80,12 +81,12 @@ export default class Avatar extends React.Component<Props> {
                   <g
                     id="Color/Palette/Blue-01"
                     mask={'url(#' + mask1 + ')'}
-                    fill="#65C9FF">
+                    fill={avatarStyle || "#65C9FF"}>
                     <rect id="🖍Color" x="0" y="0" width="240" height="240" />
                   </g>
                 </g>
               ) : null}
-              {circle ? (
+              {!transparent ? (
                 <mask id={mask2} fill="white">
                   <use xlinkHref={'#' + path2} />
                 </mask>
