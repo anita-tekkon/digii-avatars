@@ -79,6 +79,26 @@ export const CustomAccessoryColor = new Option({
   label: 'Custom Accessory Color',
 })
 
+export const ClotheAccessoryOption = new Option({
+  key: 'clothAccessory',
+  label: 'Cloth Accessory',
+})
+
+export const HairAccessoryOption = new Option({
+  key: 'hairAccessory',
+  label: 'Hair Accessory',
+})
+
+export const HairAccessoryOptionColor = new Option({
+  key: 'hairAccessoryColor',
+  label: 'Hair Accessory Color',
+})
+
+export const JewelleryOption = new Option({
+  key: 'jewellery',
+  label: 'Jewellery',
+})
+
 export const allOptions = [
   TopOption,
   AccessoriesOption,
@@ -94,5 +114,9 @@ export const allOptions = [
   MouthOption,
   SkinOption,
   CustomOption,
-  CustomAccessoryColor
+  CustomAccessoryColor,
+  ClotheAccessoryOption,
+  HairAccessoryOption,
+  HairAccessoryOptionColor,
+  JewelleryOption
 ]

@@ -28,6 +28,14 @@ var Squint_1 = require("./Squint");
 var Surprised_1 = require("./Surprised");
 var Wink_1 = require("./Wink");
 var WinkWacky_1 = require("./WinkWacky");
+var Googly_1 = require("./Googly");
+var ConfusedUpDown_1 = require("./ConfusedUpDown");
+var ConfusedUp_1 = require("./ConfusedUp");
+var HalfOpen_1 = require("./HalfOpen");
+var GooglySad_1 = require("./GooglySad");
+var GooglyConfused_1 = require("./GooglyConfused");
+var GooglyHalf_1 = require("./GooglyHalf");
+var GooglyFull_1 = require("./GooglyFull");
 var options_1 = require("../../../options");
 var Eyes = /** @class */ (function (_super) {
     __extends(Eyes, _super);
@@ -47,7 +55,15 @@ var Eyes = /** @class */ (function (_super) {
             React.createElement(Squint_1.default, null),
             React.createElement(Surprised_1.default, null),
             React.createElement(Wink_1.default, null),
-            React.createElement(WinkWacky_1.default, null)));
+            React.createElement(WinkWacky_1.default, null),
+            React.createElement(Googly_1.default, null),
+            React.createElement(ConfusedUpDown_1.default, null),
+            React.createElement(ConfusedUp_1.default, null),
+            React.createElement(HalfOpen_1.default, null),
+            React.createElement(GooglySad_1.default, null),
+            React.createElement(GooglyConfused_1.default, null),
+            React.createElement(GooglyHalf_1.default, null),
+            React.createElement(GooglyFull_1.default, null)));
     };
     return Eyes;
 }(React.Component));

@@ -2,11 +2,14 @@ import * as React from 'react'
 import { uniqueId } from 'lodash'
 
 import Accessories from './top/accessories'
+import HairAccessories from './top/hairAccessories'
 import Clothe from './clothes'
 import Face from './face'
 import Skin from './Skin'
 import Top from './top'
 import Custom from './custom'
+import ClotheAccessory from './clothes/accessories'
+import Jewellery from './top/accessories/jewellery'
 
 export enum AvatarStyle {
   Circle = 'Circle',
@@ -63,6 +66,7 @@ export default class Avatar extends React.Component<Props> {
             transform="translate(-825.000000, -1100.000000)"
             id="Avataaar/Circle">
             <g transform="translate(825.000000, 1100.000000)">
+             
               {!transparent ? 
               (
                 <g
@@ -92,6 +96,8 @@ export default class Avatar extends React.Component<Props> {
                 </mask>
               ) : null}
               <g id="Mask" />
+        <Custom/>
+
               <g
                 id="Avataaar"
                 strokeWidth="1"
@@ -111,12 +117,16 @@ export default class Avatar extends React.Component<Props> {
                     mask={'url(#' + mask3 + ')'}
                   />
                 </g>
+
                 <Clothe />
                 <Face />
                 <Top>
+                  <HairAccessories/>
+                  <Jewellery/>
                   <Accessories />
                 </Top>
-                <Custom/>
+                <ClotheAccessory/>
+
               </g>
             </g>
           </g>

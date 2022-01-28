@@ -19,11 +19,14 @@ exports.AvatarStyle = void 0;
 var React = require("react");
 var lodash_1 = require("lodash");
 var accessories_1 = require("./top/accessories");
+var hairAccessories_1 = require("./top/hairAccessories");
 var clothes_1 = require("./clothes");
 var face_1 = require("./face");
 var Skin_1 = require("./Skin");
 var top_1 = require("./top");
 var custom_1 = require("./custom");
+var accessories_2 = require("./clothes/accessories");
+var jewellery_1 = require("./top/accessories/jewellery");
 var AvatarStyle;
 (function (AvatarStyle) {
     AvatarStyle["Circle"] = "Circle";
@@ -64,6 +67,7 @@ var Avatar = /** @class */ (function (_super) {
                         !transparent ? (React.createElement("mask", { id: mask2, fill: "white" },
                             React.createElement("use", { xlinkHref: '#' + path2 }))) : null,
                         React.createElement("g", { id: "Mask" }),
+                        React.createElement(custom_1.default, null),
                         React.createElement("g", { id: "Avataaar", strokeWidth: "1", fillRule: "evenodd", mask: 'url(#' + mask2 + ')' },
                             React.createElement("g", { id: "Body", transform: "translate(32.000000, 36.000000)" },
                                 React.createElement("mask", { id: mask3, fill: "white" },
@@ -74,8 +78,10 @@ var Avatar = /** @class */ (function (_super) {
                             React.createElement(clothes_1.default, null),
                             React.createElement(face_1.default, null),
                             React.createElement(top_1.default, null,
+                                React.createElement(hairAccessories_1.default, null),
+                                React.createElement(jewellery_1.default, null),
                                 React.createElement(accessories_1.default, null)),
-                            React.createElement(custom_1.default, null)))))));
+                            React.createElement(accessories_2.default, null)))))));
     };
     return Avatar;
 }(React.Component));

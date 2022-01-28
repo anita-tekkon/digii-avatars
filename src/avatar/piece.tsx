@@ -12,6 +12,9 @@ import Mouth from './face/mouth'
 import Nose from './face/nose'
 import Skin from './Skin'
 import CustomPiece from './custom'
+import ClotheAccessory from './clothes/accessories'
+import HairAccessory from './top/hairAccessories'
+import Jewellery from './top/accessories/jewellery'
 
 export enum AvatarStyle {
   Circle = 'Circle',
@@ -49,6 +52,9 @@ export default class PieceComponent extends React.Component<Props> {
         {this.props.pieceType === 'nose' && <Nose />}
         {this.props.pieceType === 'skin' && <Skin maskID="5678" />}
         {this.props.pieceType === 'custom' && <CustomPiece/>}
+        {this.props.pieceType === 'cotheAccessory' && <ClotheAccessory/>}
+        {this.props.pieceType === 'hairAccessory' && <HairAccessory/>}
+        {this.props.pieceType === 'jewellery' && <Jewellery/>}
       </svg>
     )
   }

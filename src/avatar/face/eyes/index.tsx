@@ -12,6 +12,14 @@ import Squint from './Squint'
 import Surprised from './Surprised'
 import Wink from './Wink'
 import WinkWacky from './WinkWacky'
+import Googly from './Googly'
+import ConfusedUpDown from './ConfusedUpDown'
+import ConfusedUp from './ConfusedUp'
+import HalfOpen from './HalfOpen'
+import GooglySad from './GooglySad'
+import GooglyConfused from './GooglyConfused'
+import GooglyHalf from './GooglyHalf'
+import GooglyFull from './GooglyFull'
 import { EyesOption, Selector } from '../../../options'
 
 export default class Eyes extends React.Component {
@@ -30,6 +38,14 @@ export default class Eyes extends React.Component {
         <Surprised />
         <Wink />
         <WinkWacky />
+        <Googly/>
+        <ConfusedUpDown/>
+        <ConfusedUp/>
+        <HalfOpen/>
+        <GooglySad/>
+        <GooglyConfused/>
+        <GooglyHalf/>
+        <GooglyFull/>
       </Selector>
     )
   }

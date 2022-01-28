@@ -16,23 +16,18 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
-var test_1 = require("./test");
-var DevilWings_1 = require("./DevilWings");
-var WhiteWings_1 = require("./WhiteWings");
-var options_1 = require("../../options");
-var Blank_1 = require("../top/facialHair/Blank");
-var CustomPiece = /** @class */ (function (_super) {
-    __extends(CustomPiece, _super);
-    function CustomPiece() {
+var earring_1 = require("./earring");
+var Blank_1 = require("../Blank");
+var options_1 = require("../../../../options");
+var Jewellery = /** @class */ (function (_super) {
+    __extends(Jewellery, _super);
+    function Jewellery() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    CustomPiece.prototype.render = function () {
-        console.log('custom piece selected');
-        return (React.createElement(options_1.Selector, { option: options_1.CustomOption, defaultOption: Blank_1.default },
-            React.createElement(test_1.default, null),
-            React.createElement(DevilWings_1.default, null),
-            React.createElement(WhiteWings_1.default, null)));
+    Jewellery.prototype.render = function () {
+        return (React.createElement(options_1.Selector, { defaultOption: Blank_1.default, option: options_1.JewelleryOption },
+            React.createElement(earring_1.default, null)));
     };
-    return CustomPiece;
+    return Jewellery;
 }(React.Component));
-exports.default = CustomPiece;
+exports.default = Jewellery;

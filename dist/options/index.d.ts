@@ -17,4 +17,8 @@ export declare const MouthOption: Option;
 export declare const SkinOption: Option;
 export declare const CustomOption: Option;
 export declare const CustomAccessoryColor: Option;
+export declare const ClotheAccessoryOption: Option;
+export declare const HairAccessoryOption: Option;
+export declare const HairAccessoryOptionColor: Option;
+export declare const JewelleryOption: Option;
 export declare const allOptions: Option[];

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.allOptions = exports.CustomAccessoryColor = exports.CustomOption = exports.SkinOption = exports.MouthOption = exports.EyebrowOption = exports.EyesOption = exports.GraphicOption = exports.ClotheColorOption = exports.ClotheOption = exports.FacialHairColor = exports.FacialHairOption = exports.HairColorOption = exports.HatColorOption = exports.AccessoriesOption = exports.TopOption = exports.Selector = exports.OptionContext = exports.Option = void 0;
+exports.allOptions = exports.JewelleryOption = exports.HairAccessoryOptionColor = exports.HairAccessoryOption = exports.ClotheAccessoryOption = exports.CustomAccessoryColor = exports.CustomOption = exports.SkinOption = exports.MouthOption = exports.EyebrowOption = exports.EyesOption = exports.GraphicOption = exports.ClotheColorOption = exports.ClotheOption = exports.FacialHairColor = exports.FacialHairOption = exports.HairColorOption = exports.HatColorOption = exports.AccessoriesOption = exports.TopOption = exports.Selector = exports.OptionContext = exports.Option = void 0;
 var Option_1 = require("./Option");
 var Option_2 = require("./Option");
 Object.defineProperty(exports, "Option", { enumerable: true, get: function () { return Option_2.default; } });
@@ -68,6 +68,22 @@ exports.CustomAccessoryColor = new Option_1.default({
     key: 'customAccessoryColor',
     label: 'Custom Accessory Color',
 });
+exports.ClotheAccessoryOption = new Option_1.default({
+    key: 'clothAccessory',
+    label: 'Cloth Accessory',
+});
+exports.HairAccessoryOption = new Option_1.default({
+    key: 'hairAccessory',
+    label: 'Hair Accessory',
+});
+exports.HairAccessoryOptionColor = new Option_1.default({
+    key: 'hairAccessoryColor',
+    label: 'Hair Accessory Color',
+});
+exports.JewelleryOption = new Option_1.default({
+    key: 'jewellery',
+    label: 'Jewellery',
+});
 exports.allOptions = [
     exports.TopOption,
     exports.AccessoriesOption,
@@ -83,5 +99,9 @@ exports.allOptions = [
     exports.MouthOption,
     exports.SkinOption,
     exports.CustomOption,
-    exports.CustomAccessoryColor
+    exports.CustomAccessoryColor,
+    exports.ClotheAccessoryOption,
+    exports.HairAccessoryOption,
+    exports.HairAccessoryOptionColor,
+    exports.JewelleryOption
 ];

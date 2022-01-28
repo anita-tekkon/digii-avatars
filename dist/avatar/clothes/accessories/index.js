@@ -16,23 +16,18 @@ var __extends = (this && this.__extends) || (function () {
 })();
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
-var test_1 = require("./test");
-var DevilWings_1 = require("./DevilWings");
-var WhiteWings_1 = require("./WhiteWings");
-var options_1 = require("../../options");
-var Blank_1 = require("../top/facialHair/Blank");
-var CustomPiece = /** @class */ (function (_super) {
-    __extends(CustomPiece, _super);
-    function CustomPiece() {
+var Blank_1 = require("../../top/accessories/Blank");
+var BowTie_1 = require("./BowTie");
+var options_1 = require("../../../options");
+var Clothes = /** @class */ (function (_super) {
+    __extends(Clothes, _super);
+    function Clothes() {
         return _super !== null && _super.apply(this, arguments) || this;
     }
-    CustomPiece.prototype.render = function () {
-        console.log('custom piece selected');
-        return (React.createElement(options_1.Selector, { option: options_1.CustomOption, defaultOption: Blank_1.default },
-            React.createElement(test_1.default, null),
-            React.createElement(DevilWings_1.default, null),
-            React.createElement(WhiteWings_1.default, null)));
+    Clothes.prototype.render = function () {
+        return (React.createElement(options_1.Selector, { option: options_1.ClotheAccessoryOption, defaultOption: Blank_1.default },
+            React.createElement(BowTie_1.default, null)));
     };
-    return CustomPiece;
+    return Clothes;
 }(React.Component));
-exports.default = CustomPiece;
+exports.default = Clothes;
