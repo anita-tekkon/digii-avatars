@@ -12,6 +12,10 @@ import Smile from './Smile'
 import Tongue from './Tongue'
 import Twinkle from './Twinkle'
 import Vomit from './Vomit'
+import TeethSmile from './TeethSmile'
+import TongueSmile from './TongueSmile'
+import RedLips from './RedLips'
+import Cat from './Cat'
 import { MouthOption, Selector } from '../../../options'
 
 export default class Mouth extends React.Component {
@@ -30,6 +34,10 @@ export default class Mouth extends React.Component {
         <Tongue />
         <Twinkle />
         <Vomit />
+        <TeethSmile />
+        <TongueSmile />
+        <RedLips />
+        <Cat />
       </Selector>
     )
   }

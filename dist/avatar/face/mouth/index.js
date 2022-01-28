@@ -28,6 +28,10 @@ var Smile_1 = require("./Smile");
 var Tongue_1 = require("./Tongue");
 var Twinkle_1 = require("./Twinkle");
 var Vomit_1 = require("./Vomit");
+var TeethSmile_1 = require("./TeethSmile");
+var TongueSmile_1 = require("./TongueSmile");
+var RedLips_1 = require("./RedLips");
+var Cat_1 = require("./Cat");
 var options_1 = require("../../../options");
 var Mouth = /** @class */ (function (_super) {
     __extends(Mouth, _super);
@@ -47,7 +51,11 @@ var Mouth = /** @class */ (function (_super) {
             React.createElement(Smile_1.default, null),
             React.createElement(Tongue_1.default, null),
             React.createElement(Twinkle_1.default, null),
-            React.createElement(Vomit_1.default, null)));
+            React.createElement(Vomit_1.default, null),
+            React.createElement(TeethSmile_1.default, null),
+            React.createElement(TongueSmile_1.default, null),
+            React.createElement(RedLips_1.default, null),
+            React.createElement(Cat_1.default, null)));
     };
     return Mouth;
 }(React.Component));

@@ -28,6 +28,12 @@ var SadConcernedNatural_1 = require("./SadConcernedNatural");
 var UnibrowNatural_1 = require("./UnibrowNatural");
 var UpDown_1 = require("./UpDown");
 var UpDownNatural_1 = require("./UpDownNatural");
+var EyeBrow1_1 = require("./EyeBrow1");
+var EyeBrow2_1 = require("./EyeBrow2");
+var EyeBrow3_1 = require("./EyeBrow3");
+var EyeBrow4_1 = require("./EyeBrow4");
+var EyeBrow5_1 = require("./EyeBrow5");
+var EyeBrow6_1 = require("./EyeBrow6");
 var options_1 = require("../../../options");
 var Eyebrow = /** @class */ (function (_super) {
     __extends(Eyebrow, _super);
@@ -47,7 +53,13 @@ var Eyebrow = /** @class */ (function (_super) {
             React.createElement(SadConcernedNatural_1.default, null),
             React.createElement(UnibrowNatural_1.default, null),
             React.createElement(UpDown_1.default, null),
-            React.createElement(UpDownNatural_1.default, null)));
+            React.createElement(UpDownNatural_1.default, null),
+            React.createElement(EyeBrow1_1.default, null),
+            React.createElement(EyeBrow2_1.default, null),
+            React.createElement(EyeBrow3_1.default, null),
+            React.createElement(EyeBrow4_1.default, null),
+            React.createElement(EyeBrow5_1.default, null),
+            React.createElement(EyeBrow6_1.default, null)));
     };
     return Eyebrow;
 }(React.Component));

@@ -22,7 +22,7 @@ var GooglyConfused = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     GooglyConfused.prototype.render = function () {
-        return (React.createElement("g", { id: 'Eyes/GooglyConfused', transform: 'translate(12.000000, 14.000000)' },
+        return (React.createElement("g", { id: 'Eyes/GooglyConfused', transform: 'translate(15.000000, 12.000000)' },
             React.createElement("g", { id: "Group_179", "data-name": "Group 179", transform: "translate(-325.32 -634.437)" },
                 React.createElement("g", { id: "Group_174", "data-name": "Group 174", transform: "translate(325.32 634.437)" },
                     React.createElement("g", { id: "Group_173", "data-name": "Group 173", transform: "translate(1.645 1.736)" },

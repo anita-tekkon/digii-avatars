@@ -22,7 +22,7 @@ var GooglyFull = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     GooglyFull.prototype.render = function () {
-        return (React.createElement("g", { id: 'Eyes/GooglyFull', transform: 'translate(12.000000, 14.000000)' },
+        return (React.createElement("g", { id: 'Eyes/GooglyFull', transform: 'translate(14.000000, 14.000000)' },
             React.createElement("g", { id: "Group_198", "data-name": "Group 198", transform: "translate(-55.56 -634.915)" },
                 React.createElement("g", { id: "Group_191", "data-name": "Group 191", transform: "translate(55.56 634.915)" },
                     React.createElement("g", { id: "Group_190", "data-name": "Group 190", transform: "translate(1.776 1.746)" },

@@ -22,7 +22,7 @@ var HalfOpen = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     HalfOpen.prototype.render = function () {
-        return (React.createElement("g", { id: 'Eyes/HalfOpen', transform: 'translate(12.000000, 14.000000)' },
+        return (React.createElement("g", { id: 'Eyes/HalfOpen', transform: 'translate(14.000000, 14.000000)' },
             React.createElement("g", { id: "eyessss", transform: "translate(-55.68 -369.226)" },
                 React.createElement("g", { id: "Group_152", "data-name": "Group 152", transform: "translate(55.68 369.226)" },
                     React.createElement("g", { id: "Group_151", "data-name": "Group 151", transform: "translate(1.643 1.77)" },

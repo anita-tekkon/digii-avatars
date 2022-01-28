@@ -51,6 +51,14 @@ var WinterHat1_1 = require("./WinterHat1");
 var WinterHat2_1 = require("./WinterHat2");
 var WinterHat3_1 = require("./WinterHat3");
 var WinterHat4_1 = require("./WinterHat4");
+var ShortDownRight_1 = require("./ShortDownRight");
+var Hair20_1 = require("./Hair20");
+var Hair21_1 = require("./Hair21");
+var Hair15_1 = require("./Hair15");
+var Hair13_1 = require("./Hair13");
+var Hair11_1 = require("./Hair11");
+var Hair5_1 = require("./Hair5");
+var Hair6_1 = require("./Hair6");
 var options_1 = require("../../options");
 var Top = /** @class */ (function (_super) {
     __extends(Top, _super);
@@ -94,7 +102,15 @@ var Top = /** @class */ (function (_super) {
             React.createElement(ShortHairShortWaved_1.default, null, children),
             React.createElement(ShortHairSides_1.default, null, children),
             React.createElement(ShortHairTheCaesar_1.default, null, children),
-            React.createElement(ShortHairTheCaesarSidePart_1.default, null, children)));
+            React.createElement(ShortHairTheCaesarSidePart_1.default, null, children),
+            React.createElement(ShortDownRight_1.default, null, children),
+            React.createElement(Hair20_1.default, null, children),
+            React.createElement(Hair21_1.default, null, children),
+            React.createElement(Hair15_1.default, null, children),
+            React.createElement(Hair13_1.default, null, children),
+            React.createElement(Hair11_1.default, null, children),
+            React.createElement(Hair5_1.default, null, children),
+            React.createElement(Hair6_1.default, null, children)));
     };
     return Top;
 }(React.Component));

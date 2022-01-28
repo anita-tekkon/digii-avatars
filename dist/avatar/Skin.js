@@ -25,8 +25,8 @@ function makeColor(name, color) {
         }
         ColorComponent.prototype.render = function () {
             return (React.createElement("g", { id: "Skin/\uD83D\uDC76\uD83C\uDFFD-03-Brown", mask: "url(#".concat(this.props.maskID, ")"), fill: color },
-                React.createElement("g", { transform: "translate(0.000000, 0.000000)", id: "Color" },
-                    React.createElement("rect", { x: "0", y: "0", width: "264", height: "280" }))));
+                React.createElement("g", { transform: "translate(0.000000, -10.000000)", id: "Color" },
+                    React.createElement("rect", { x: "0", y: "0", width: "264", height: "290" }))));
         };
         return ColorComponent;
     }(React.Component));

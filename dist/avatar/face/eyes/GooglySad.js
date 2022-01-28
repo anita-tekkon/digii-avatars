@@ -22,7 +22,7 @@ var GooglySad = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     GooglySad.prototype.render = function () {
-        return (React.createElement("g", { id: 'Eyes/GooglySad', transform: 'translate(12.000000, 14.000000)' },
+        return (React.createElement("g", { id: 'Eyes/GooglySad', transform: 'translate(14.000000, 16.000000)' },
             React.createElement("g", { id: "eyeeyeye", transform: "translate(-589.32 -641.347)" },
                 React.createElement("g", { id: "Group_161", "data-name": "Group 161", transform: "translate(589.32 641.347)" },
                     React.createElement("g", { id: "Group_160", "data-name": "Group 160", transform: "translate(1.682 1.617)" },
