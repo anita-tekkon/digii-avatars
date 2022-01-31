@@ -19,6 +19,7 @@ var React = require("react");
 var test_1 = require("./test");
 var DevilWings_1 = require("./DevilWings");
 var WhiteWings_1 = require("./WhiteWings");
+var RedWings_1 = require("./RedWings");
 var options_1 = require("../../options");
 var Blank_1 = require("../top/facialHair/Blank");
 var CustomPiece = /** @class */ (function (_super) {
@@ -27,11 +28,11 @@ var CustomPiece = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     CustomPiece.prototype.render = function () {
-        console.log('custom piece selected');
         return (React.createElement(options_1.Selector, { option: options_1.CustomOption, defaultOption: Blank_1.default },
             React.createElement(test_1.default, null),
             React.createElement(DevilWings_1.default, null),
-            React.createElement(WhiteWings_1.default, null)));
+            React.createElement(WhiteWings_1.default, null),
+            React.createElement(RedWings_1.default, null)));
     };
     return CustomPiece;
 }(React.Component));

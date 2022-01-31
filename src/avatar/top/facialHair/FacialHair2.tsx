@@ -3,8 +3,8 @@ import { uniqueId } from 'lodash'
 
 import Colors from './Colors'
 
-export default class BeardTest extends React.Component {
-  static optionValue = 'BeardTest'
+export default class FacialHair2 extends React.Component {
+  static optionValue = 'FacialHair2'
 
   private mask1 = uniqueId('react-mask-')
   private mask2 = uniqueId('react-mask-')
@@ -15,7 +15,7 @@ export default class BeardTest extends React.Component {
     const { mask1, path1, mask2, path2 } = this
     return (
       <g
-        id='Facial-Hair/Beard-Test'
+        id='Facial-Hair/FacialHair2'
         transform='translate(78.000000, 42.000000)'>
         <defs>
           <path

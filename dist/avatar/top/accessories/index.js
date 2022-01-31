@@ -22,9 +22,16 @@ var Prescription01_1 = require("./Prescription01");
 var Prescription02_1 = require("./Prescription02");
 var Round_1 = require("./Round");
 var Sunglasses_1 = require("./Sunglasses");
-var SunglassesTest_1 = require("./SunglassesTest");
+var Hearts_1 = require("./Hearts");
 var Wayfarers_1 = require("./Wayfarers");
 var BlackPrescription_1 = require("./BlackPrescription");
+var Sunglasses1_1 = require("./Sunglasses1");
+var Sunglasses2_1 = require("./Sunglasses2");
+var Sunglasses3_1 = require("./Sunglasses3");
+var Sunglasses5_1 = require("./Sunglasses5");
+var Sunglasses6_1 = require("./Sunglasses6");
+var Sunglasses7_1 = require("./Sunglasses7");
+var Sunglasses8_1 = require("./Sunglasses8");
 var options_1 = require("../../../options");
 var Accessories = /** @class */ (function (_super) {
     __extends(Accessories, _super);
@@ -40,8 +47,15 @@ var Accessories = /** @class */ (function (_super) {
             React.createElement(Round_1.default, null),
             React.createElement(Sunglasses_1.default, null),
             React.createElement(Wayfarers_1.default, null),
-            React.createElement(SunglassesTest_1.default, null),
-            React.createElement(BlackPrescription_1.default, null)));
+            React.createElement(Hearts_1.default, null),
+            React.createElement(BlackPrescription_1.default, null),
+            React.createElement(Sunglasses1_1.default, null),
+            React.createElement(Sunglasses2_1.default, null),
+            React.createElement(Sunglasses3_1.default, null),
+            React.createElement(Sunglasses5_1.default, null),
+            React.createElement(Sunglasses6_1.default, null),
+            React.createElement(Sunglasses7_1.default, null),
+            React.createElement(Sunglasses8_1.default, null)));
     };
     return Accessories;
 }(React.Component));
