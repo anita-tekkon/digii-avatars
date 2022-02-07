@@ -38,7 +38,7 @@ export default class Cloth582 extends React.Component {
         <path 
             data-name="Button-place"
             d="M284.435,187.767,277.92,181.7V255.94h13.142V181.6Z" 
-            transform="translate(-181 -170) sclae(1.1)" 
+            transform="translate(-181 -170) scale(1.1)" 
             fill="#fff"
           />
            <path 

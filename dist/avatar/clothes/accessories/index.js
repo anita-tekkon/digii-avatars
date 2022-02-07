@@ -24,6 +24,10 @@ var ClothAccessory4_1 = require("./ClothAccessory4");
 var ClothAccessory5_1 = require("./ClothAccessory5");
 var ClothAccessory6_1 = require("./ClothAccessory6");
 var ClothAccessory7_1 = require("./ClothAccessory7");
+var ClothAccessory8_1 = require("./ClothAccessory8");
+var ClothAccessory9_1 = require("./ClothAccessory9");
+var ClothAccessory10_1 = require("./ClothAccessory10");
+var ClothAccessory11_1 = require("./ClothAccessory11");
 var options_1 = require("../../../options");
 var Clothes = /** @class */ (function (_super) {
     __extends(Clothes, _super);
@@ -38,7 +42,11 @@ var Clothes = /** @class */ (function (_super) {
             React.createElement(ClothAccessory4_1.default, null),
             React.createElement(ClothAccessory5_1.default, null),
             React.createElement(ClothAccessory6_1.default, null),
-            React.createElement(ClothAccessory7_1.default, null)));
+            React.createElement(ClothAccessory7_1.default, null),
+            React.createElement(ClothAccessory8_1.default, null),
+            React.createElement(ClothAccessory9_1.default, null),
+            React.createElement(ClothAccessory10_1.default, null),
+            React.createElement(ClothAccessory11_1.default, null)));
     };
     return Clothes;
 }(React.Component));

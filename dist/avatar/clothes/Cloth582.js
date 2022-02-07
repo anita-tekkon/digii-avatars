@@ -35,7 +35,7 @@ var Cloth582 = /** @class */ (function (_super) {
                 React.createElement("use", { xlinkHref: '#' + path1 })),
             React.createElement("use", { id: 'Cloth582', fill: '#B7C1DB', fillRule: 'evenodd', xlinkHref: '#' + path1 }),
             React.createElement(Colors_1.default, { maskID: mask1 }),
-            React.createElement("path", { "data-name": "Button-place", d: "M284.435,187.767,277.92,181.7V255.94h13.142V181.6Z", transform: "translate(-181 -170) sclae(1.1)", fill: "#fff" }),
+            React.createElement("path", { "data-name": "Button-place", d: "M284.435,187.767,277.92,181.7V255.94h13.142V181.6Z", transform: "translate(-181 -170) scale(1.1)", fill: "#fff" }),
             React.createElement("path", { "data-name": "Shirt-Collar", d: "M298.6,192.93,279.812,176.1c-.018.185-11.163,11.448-13.462,12.666,0,0,11.106,17.459,18.772,16.2C290.821,204.026,298.6,192.93,298.6,192.93Z", transform: "translate(-201 -180) scale(1.1)", fill: "#fff" }),
             React.createElement("path", { d: "M281.843,192.93l18.784-16.83c.017.185,11.163,11.448,13.462,12.666,0,0-11.106,17.459-18.772,16.2C289.619,204.026,281.843,192.93,281.843,192.93Z", transform: "translate(-174 -180) scale(1.1)", fill: "#fff" }),
             React.createElement("rect", { "data-name": "Rectangle 81", width: "32.314", height: "21.445", transform: "translate(162 84) scale(1.1)", fill: "#fff" }),

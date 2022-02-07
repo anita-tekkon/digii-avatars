@@ -56,6 +56,7 @@ var Hair20_1 = require("./Hair20");
 var Hair21_1 = require("./Hair21");
 var Hair15_1 = require("./Hair15");
 var Hair13_1 = require("./Hair13");
+var Hair10_1 = require("./Hair10");
 var Hair11_1 = require("./Hair11");
 var Hair5_1 = require("./Hair5");
 var Hair6_1 = require("./Hair6");
@@ -108,6 +109,7 @@ var Top = /** @class */ (function (_super) {
             React.createElement(Hair21_1.default, null, children),
             React.createElement(Hair15_1.default, null, children),
             React.createElement(Hair13_1.default, null, children),
+            React.createElement(Hair10_1.default, null, children),
             React.createElement(Hair11_1.default, null, children),
             React.createElement(Hair5_1.default, null, children),
             React.createElement(Hair6_1.default, null, children)));

@@ -40,6 +40,7 @@ import Hair20 from './Hair20'
 import Hair21 from './Hair21'
 import Hair15 from './Hair15'
 import Hair13 from './Hair13'
+import Hair10 from './Hair10'
 import Hair11 from './Hair11'
 import Hair5 from './Hair5'
 import Hair6 from './Hair6'
@@ -93,6 +94,7 @@ export default class Top extends React.Component {
         <Hair21>{children}</Hair21>
         <Hair15>{children}</Hair15>
         <Hair13>{children}</Hair13>
+        <Hair10>{children}</Hair10>
         <Hair11>{children}</Hair11>
         <Hair5>{children}</Hair5>
         <Hair6>{children}</Hair6>

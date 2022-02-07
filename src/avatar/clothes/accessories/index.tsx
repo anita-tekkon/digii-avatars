@@ -7,6 +7,10 @@ import ClothAccessory4 from './ClothAccessory4'
 import ClothAccessory5 from './ClothAccessory5'
 import ClothAccessory6 from './ClothAccessory6'
 import ClothAccessory7 from './ClothAccessory7'
+import ClothAccessory8 from './ClothAccessory8'
+import ClothAccessory9 from './ClothAccessory9'
+import ClothAccessory10 from './ClothAccessory10'
+import ClothAccessory11 from './ClothAccessory11'
 import { ClotheAccessoryOption, Selector } from '../../../options'
 
 export default class Clothes extends React.Component {
@@ -20,6 +24,10 @@ export default class Clothes extends React.Component {
           <ClothAccessory5/>
           <ClothAccessory6/>
           <ClothAccessory7/>
+          <ClothAccessory8/>
+          <ClothAccessory9/>
+          <ClothAccessory10/>
+          <ClothAccessory11/>
       </Selector>
     )
   }
