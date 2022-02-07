@@ -36,7 +36,8 @@ var Overall = /** @class */ (function (_super) {
             React.createElement("use", { id: 'Overall', fill: '#B7C1DB', fillRule: 'evenodd', xlinkHref: '#' + path1 }),
             React.createElement(Colors_1.default, { maskID: mask1 }),
             React.createElement("circle", { id: 'Button', fill: '#F4F4F4', fillRule: 'evenodd', cx: '81', cy: '83', r: '5' }),
-            React.createElement("circle", { id: 'Button', fill: '#F4F4F4', fillRule: 'evenodd', cx: '183', cy: '83', r: '5' })));
+            React.createElement("circle", { id: 'Button', fill: '#F4F4F4', fillRule: 'evenodd', cx: '183', cy: '83', r: '5' }),
+            this.props.children));
     };
     Overall.optionValue = 'Overall';
     return Overall;

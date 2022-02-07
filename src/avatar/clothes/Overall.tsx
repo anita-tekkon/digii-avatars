@@ -45,6 +45,7 @@ export default class Overall extends React.Component {
           cy='83'
           r='5'
         />
+        {this.props.children}
       </g>
     )
   }

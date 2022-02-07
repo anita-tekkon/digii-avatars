@@ -95,7 +95,8 @@ export default class Turban extends React.Component {
                 fill='#000000'
               />
             </g>
-            {this.props.children}
+              {this.props.children ?this.props.children[1]: this.props.children}
+            {/* {this.props.children} */}
           </g>
         </g>
       </g>

@@ -23,6 +23,7 @@ var Blank_1 = require("./Blank");
 var MoustacheFancy_1 = require("./MoustacheFancy");
 var MoustacheMagnum_1 = require("./MoustacheMagnum");
 var FacialHair2_1 = require("./FacialHair2");
+var FacialHair3_1 = require("./FacialHair3");
 var FacialHair4_1 = require("./FacialHair4");
 var options_1 = require("../../../options");
 var FacialHair = /** @class */ (function (_super) {
@@ -39,6 +40,7 @@ var FacialHair = /** @class */ (function (_super) {
             React.createElement(MoustacheFancy_1.default, null),
             React.createElement(MoustacheMagnum_1.default, null),
             React.createElement(FacialHair2_1.default, null),
+            React.createElement(FacialHair3_1.default, null),
             React.createElement(FacialHair4_1.default, null)));
     };
     return FacialHair;

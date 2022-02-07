@@ -87,7 +87,7 @@ export default class Hat extends React.Component {
               />
             </g>
             <FacialHair />
-            {this.props.children}
+            {this.props.children ?this.props.children[1]: this.props.children}
           </g>
         </g>
       </g>

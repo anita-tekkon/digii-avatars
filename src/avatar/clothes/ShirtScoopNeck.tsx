@@ -30,6 +30,7 @@ export default class ShirtScoopNeck extends React.Component {
           xlinkHref={'#' + path1}
         />
         <Colors maskID={mask1} />
+        {this.props.children}
       </g>
     )
   }

@@ -44,6 +44,7 @@ export default class Hoodie extends React.Component {
           fillRule='evenodd'
           mask={`url(#${mask1})`}
         />
+        {this.props.children}
       </g>
     )
   }

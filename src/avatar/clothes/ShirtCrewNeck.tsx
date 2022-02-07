@@ -47,6 +47,7 @@ export default class ShirtCrewNeck extends React.Component {
             />
           </g>
         </g>
+        {this.props.children}
       </g>
     )
   }

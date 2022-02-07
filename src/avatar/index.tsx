@@ -118,14 +118,15 @@ export default class Avatar extends React.Component<Props> {
                   />
                 </g>
 
-                <Clothe />
+                <Clothe>
+                </Clothe>
+                  <ClotheAccessory/>
                 <Face />
                 <Top>
                   <HairAccessories/>
-                  <Jewellery/>
                   <Accessories />
                 </Top>
-                <ClotheAccessory/>
+                  <Jewellery/>
 
               </g>
             </g>

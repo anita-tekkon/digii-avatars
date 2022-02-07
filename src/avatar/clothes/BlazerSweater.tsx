@@ -68,6 +68,7 @@ export default class BlazerSweater extends React.Component {
           fill='#F2F2F2'
           fillRule='evenodd'
         />
+        {this.props.children}
       </g>
     )
   }

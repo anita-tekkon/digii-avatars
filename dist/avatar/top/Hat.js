@@ -54,7 +54,7 @@ var Hat = /** @class */ (function (_super) {
                         React.createElement("ellipse", { id: 'Hipster', fill: '#1F333C', mask: "url(#".concat(mask2, ")"), cx: '132', cy: '87.5', rx: '122', ry: '57.5' }),
                         React.createElement("ellipse", { id: 'Very', fill: '#15232A', mask: "url(#".concat(mask2, ")"), cx: '132', cy: '82', rx: '62', ry: '25' })),
                     React.createElement(facialHair_1.default, null),
-                    this.props.children))));
+                    this.props.children ? this.props.children[1] : this.props.children))));
     };
     Hat.optionValue = 'Hat';
     return Hat;

@@ -119,7 +119,7 @@ export default class WinterHat4 extends React.Component {
             <use fill='#F4F4F4' fillRule='evenodd' xlinkHref={'#' + path4} />
           </g>
           <FacialHair />
-          {this.props.children}
+          {this.props.children ?this.props.children[1]: this.props.children}
         </g>
       </g>
     )

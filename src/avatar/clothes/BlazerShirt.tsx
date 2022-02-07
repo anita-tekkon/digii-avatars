@@ -68,6 +68,7 @@ export default class BlazerShirt extends React.Component {
             transform='translate(141.000000, 41.000000) scale(-1, 1) translate(-141.000000, -41.000000) '
           />
         </g>
+        {this.props.children}
       </g>
     )
   }

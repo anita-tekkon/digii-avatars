@@ -7,6 +7,7 @@ import Blank from './Blank'
 import MoustacheFancy from './MoustacheFancy'
 import MoustacheMagnum from './MoustacheMagnum'
 import FacialHair2 from './FacialHair2'
+import FacialHair3 from './FacialHair3'
 import FacialHair4 from './FacialHair4'
 import { FacialHairOption, Selector } from '../../../options'
 
@@ -21,6 +22,7 @@ export default class FacialHair extends React.Component {
         <MoustacheFancy />
         <MoustacheMagnum />
         <FacialHair2/>
+        <FacialHair3/>
         <FacialHair4/>
       </Selector>
     )

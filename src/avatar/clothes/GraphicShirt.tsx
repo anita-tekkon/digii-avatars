@@ -33,6 +33,7 @@ export default class GraphicShirt extends React.Component {
         />
         <Colors maskID={mask1} />
         <Graphics maskID={mask1} />
+        {this.props.children}
       </g>
     )
   }

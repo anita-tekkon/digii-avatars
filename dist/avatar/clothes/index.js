@@ -25,6 +25,15 @@ var Overall_1 = require("./Overall");
 var ShirtCrewNeck_1 = require("./ShirtCrewNeck");
 var ShirtScoopNeck_1 = require("./ShirtScoopNeck");
 var ShirtVNeck_1 = require("./ShirtVNeck");
+var Cloth4_1 = require("./Cloth4");
+var Cloth5_1 = require("./Cloth5");
+var Cloth6_1 = require("./Cloth6");
+var Cloth7_1 = require("./Cloth7");
+var Cloth10_1 = require("./Cloth10");
+var Cloth14_1 = require("./Cloth14");
+var Cloth575_1 = require("./Cloth575");
+var Cloth608_1 = require("./Cloth608");
+var Cloth582_1 = require("./Cloth582");
 var options_1 = require("../../options");
 var Clothes = /** @class */ (function (_super) {
     __extends(Clothes, _super);
@@ -41,7 +50,16 @@ var Clothes = /** @class */ (function (_super) {
             React.createElement(Overall_1.default, null),
             React.createElement(ShirtCrewNeck_1.default, null),
             React.createElement(ShirtScoopNeck_1.default, null),
-            React.createElement(ShirtVNeck_1.default, null)));
+            React.createElement(ShirtVNeck_1.default, null),
+            React.createElement(Cloth4_1.default, null),
+            React.createElement(Cloth5_1.default, null),
+            React.createElement(Cloth6_1.default, null),
+            React.createElement(Cloth7_1.default, null),
+            React.createElement(Cloth10_1.default, null),
+            React.createElement(Cloth14_1.default, null),
+            React.createElement(Cloth575_1.default, null),
+            React.createElement(Cloth608_1.default, null),
+            React.createElement(Cloth582_1.default, null)));
     };
     return Clothes;
 }(React.Component));

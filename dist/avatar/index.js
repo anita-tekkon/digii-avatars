@@ -76,12 +76,12 @@ var Avatar = /** @class */ (function (_super) {
                                 React.createElement(Skin_1.default, { maskID: mask3 }),
                                 React.createElement("path", { d: "M156,79 L156,102 C156,132.927946 130.927946,158 100,158 C69.072054,158 44,132.927946 44,102 L44,79 L44,94 C44,124.927946 69.072054,150 100,150 C130.927946,150 156,124.927946 156,94 L156,79 Z", id: "Neck-Shadow", fillOpacity: "0.100000001", fill: "#000000", mask: 'url(#' + mask3 + ')' })),
                             React.createElement(clothes_1.default, null),
+                            React.createElement(accessories_2.default, null),
                             React.createElement(face_1.default, null),
                             React.createElement(top_1.default, null,
                                 React.createElement(hairAccessories_1.default, null),
-                                React.createElement(jewellery_1.default, null),
                                 React.createElement(accessories_1.default, null)),
-                            React.createElement(accessories_2.default, null)))))));
+                            React.createElement(jewellery_1.default, null)))))));
     };
     return Avatar;
 }(React.Component));
