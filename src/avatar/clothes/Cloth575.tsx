@@ -22,6 +22,7 @@ export default class Cloth575 extends React.Component {
     return (
       <g id='Clothing/Cloth575' transform='translate(0.000000, 170.000000)'>
          <path 
+         opacity="0.8"
           id="Shirt"
           d="M437.174,177.494c-.02-.207-.028-.4-.045-.609L415,197.426l-.027-.037v-.02l-.008.008-.007-.008v.02l-.027.037L392.8,176.885c-.017.205-.025.4-.045.609-.163,1.641-5.346,14-16.185,16.579v76.263h76.793V194.072C442.52,191.49,437.336,179.135,437.174,177.494Z" 
           transform="translate(-332 -187) scale(1.12)" 

@@ -40,6 +40,12 @@ const PastelRed = makeColor('PastelRed', '#FFAFB9')
 const PastelYellow = makeColor('PastelYellow', '#FFFFB1')
 const Pink = makeColor('Pink', '#FF488E')
 const Red = makeColor('Red', '#FF5C5C')
+const Orange = makeColor('Orange', '#fa9047')
+const Lime = makeColor('Lime', '#bfbf18')
+const Purple = makeColor('Purple', '#b165c6')
+const Maroon = makeColor('Maroon', '#982826')
+const Green01 = makeColor('Green01', '#195c5b')
+const Green02 = makeColor('Green02', '#5e8584')
 const White = makeColor('White', '#FFFFFF')
 
 export default class Colors extends React.Component<Props> {
@@ -61,6 +67,12 @@ export default class Colors extends React.Component<Props> {
         <Pink maskID={this.props.maskID} />
         <Red maskID={this.props.maskID} />
         <White maskID={this.props.maskID} />
+        <Orange maskID={this.props.maskID} />
+        <Lime maskID={this.props.maskID} />
+        <Purple maskID={this.props.maskID} />
+        <Maroon maskID={this.props.maskID} />
+        <Green01 maskID={this.props.maskID} />
+        <Green02 maskID={this.props.maskID} />
       </Selector>
     )
   }
