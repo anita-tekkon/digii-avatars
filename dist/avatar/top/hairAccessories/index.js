@@ -25,6 +25,11 @@ var HairAccessory8_1 = require("./HairAccessory8");
 var HairAccessory10_1 = require("./HairAccessory10");
 var HairAccessory12_1 = require("./HairAccessory12");
 var HairAccessory13_1 = require("./HairAccessory13");
+var HairAccessory14_1 = require("./HairAccessory14");
+var HairAccessory15_1 = require("./HairAccessory15");
+var HairAccessory16_1 = require("./HairAccessory16");
+var HairAccessory17_1 = require("./HairAccessory17");
+var HairAccessory18_1 = require("./HairAccessory18");
 var Blank_1 = require("../accessories/Blank");
 var options_1 = require("../../../options");
 var HairAccessories = /** @class */ (function (_super) {
@@ -42,7 +47,12 @@ var HairAccessories = /** @class */ (function (_super) {
             React.createElement(HairAccessory8_1.default, null),
             React.createElement(HairAccessory10_1.default, null),
             React.createElement(HairAccessory12_1.default, null),
-            React.createElement(HairAccessory13_1.default, null)));
+            React.createElement(HairAccessory13_1.default, null),
+            React.createElement(HairAccessory14_1.default, null),
+            React.createElement(HairAccessory15_1.default, null),
+            React.createElement(HairAccessory16_1.default, null),
+            React.createElement(HairAccessory17_1.default, null),
+            React.createElement(HairAccessory18_1.default, null)));
     };
     return HairAccessories;
 }(React.Component));

@@ -28,7 +28,7 @@ export default class DevilWings extends React.Component {
       <g
         id='Custom/Devil-Wings'
         transform='translate(-35.000000, 100.000000)'>
-        <g id="_02" data-name="02" transform="translate(-11.192 40.583)">
+        <g id="_02" data-name="02" transform="translate(-13 49)">
     <g id="Group_105" data-name="Group 105" transform="matrix(0.966, -0.259, 0.259, 0.966, 212.004, -9.719)">
       <path id="Path_314" data-name="Path 314" d="M154.647,73.181s-1.609-1.1-2.035.171V89.964s-.255,2.628,1.272,2.12,13.138-13.562,26.7-15.344,28.479.34,32.632,5.849c0,0,9.071-33.566,41.366-33.735,0,0-2.4-21.785,6.978-35.12,0,0,9.607-1.583,10.285-4.3,0,0-56.281,2.373-75.156,11.753,0,0-5.509-5.227-5.764-3.531s2.288,5.254,2.288,5.254S186.01,75.048,154.647,73.181Z" transform="translate(-152.597 -9.44)" fill="#3d3e3c"/>
       <g id="Group_104" data-name="Group 104" transform="translate(41.551 13.386)">

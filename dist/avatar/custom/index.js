@@ -20,6 +20,17 @@ var test_1 = require("./test");
 var DevilWings_1 = require("./DevilWings");
 var WhiteWings_1 = require("./WhiteWings");
 var RedWings_1 = require("./RedWings");
+var Wings05_1 = require("./Wings05");
+var Wings06_1 = require("./Wings06");
+var Wings07_1 = require("./Wings07");
+var Wings08_1 = require("./Wings08");
+var Wings09_1 = require("./Wings09");
+var Wings10_1 = require("./Wings10");
+var Wings11_1 = require("./Wings11");
+var Wings12_1 = require("./Wings12");
+var Wings13_1 = require("./Wings13");
+var Wings14_1 = require("./Wings14");
+var Wings15_1 = require("./Wings15");
 var options_1 = require("../../options");
 var Blank_1 = require("../top/facialHair/Blank");
 var CustomPiece = /** @class */ (function (_super) {
@@ -32,7 +43,18 @@ var CustomPiece = /** @class */ (function (_super) {
             React.createElement(test_1.default, null),
             React.createElement(DevilWings_1.default, null),
             React.createElement(WhiteWings_1.default, null),
-            React.createElement(RedWings_1.default, null)));
+            React.createElement(RedWings_1.default, null),
+            React.createElement(Wings05_1.default, null),
+            React.createElement(Wings06_1.default, null),
+            React.createElement(Wings07_1.default, null),
+            React.createElement(Wings08_1.default, null),
+            React.createElement(Wings09_1.default, null),
+            React.createElement(Wings10_1.default, null),
+            React.createElement(Wings11_1.default, null),
+            React.createElement(Wings12_1.default, null),
+            React.createElement(Wings13_1.default, null),
+            React.createElement(Wings14_1.default, null),
+            React.createElement(Wings15_1.default, null)));
     };
     return CustomPiece;
 }(React.Component));

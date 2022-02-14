@@ -48,6 +48,12 @@ var PastelRed = makeColor('PastelRed', '#FFAFB9');
 var PastelYellow = makeColor('PastelYellow', '#FFFFB1');
 var Pink = makeColor('Pink', '#FF488E');
 var Red = makeColor('Red', '#FF5C5C');
+var Orange = makeColor('Orange', '#fa9047');
+var Lime = makeColor('Lime', '#bfbf18');
+var Purple = makeColor('Purple', '#b165c6');
+var Maroon = makeColor('Maroon', '#982826');
+var Green01 = makeColor('Green01', '#195c5b');
+var Green02 = makeColor('Green02', '#5e8584');
 var White = makeColor('White', '#FFFFFF');
 var Colors = /** @class */ (function (_super) {
     __extends(Colors, _super);
@@ -70,7 +76,13 @@ var Colors = /** @class */ (function (_super) {
             React.createElement(PastelYellow, { maskID: this.props.maskID }),
             React.createElement(Pink, { maskID: this.props.maskID }),
             React.createElement(Red, { maskID: this.props.maskID }),
-            React.createElement(White, { maskID: this.props.maskID })));
+            React.createElement(White, { maskID: this.props.maskID }),
+            React.createElement(Orange, { maskID: this.props.maskID }),
+            React.createElement(Lime, { maskID: this.props.maskID }),
+            React.createElement(Purple, { maskID: this.props.maskID }),
+            React.createElement(Maroon, { maskID: this.props.maskID }),
+            React.createElement(Green01, { maskID: this.props.maskID }),
+            React.createElement(Green02, { maskID: this.props.maskID })));
     };
     return Colors;
 }(React.Component));
