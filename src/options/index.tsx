@@ -70,8 +70,8 @@ export const SkinOption = new Option({
 })
 
 export const CustomOption = new Option({
-  key: 'custom',
-  label: '🎨 Custom',
+  key: 'addons',
+  label: '🎨 Addons',
 })
 
 export const CustomAccessoryColor = new Option({
@@ -99,6 +99,16 @@ export const JewelleryOption = new Option({
   label: 'Jewellery',
 })
 
+export const BackgroundOption = new Option({
+  key: 'background',
+  label: 'Background',
+})
+
+export const FaceMaskOption = new Option({
+  key: 'faceMask',
+  label: 'Face Mask',
+})
+
 export const allOptions = [
   TopOption,
   AccessoriesOption,
@@ -118,5 +128,7 @@ export const allOptions = [
   ClotheAccessoryOption,
   HairAccessoryOption,
   HairAccessoryOptionColor,
-  JewelleryOption
+  JewelleryOption,
+  BackgroundOption,
+  FaceMaskOption
 ]

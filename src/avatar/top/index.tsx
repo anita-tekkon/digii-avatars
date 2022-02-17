@@ -48,6 +48,8 @@ import Hair1 from './Hair1'
 import Hair3 from './Hair3'
 import Hair08 from './Hair08'
 import Hair16 from './Hair16'
+import Hair22 from './Hair22'
+import Hair23 from './Hair23'
 import { Selector, TopOption } from '../../options'
 
 export default class Top extends React.Component {
@@ -106,6 +108,8 @@ export default class Top extends React.Component {
         <Hair3>{children}</Hair3>
         <Hair08>{children}</Hair08>
         <Hair16>{children}</Hair16>
+        <Hair22>{children}</Hair22>
+        <Hair23>{children}</Hair23>
       </Selector>
     )
   }

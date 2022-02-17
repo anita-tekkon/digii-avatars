@@ -21,4 +21,6 @@ export declare const ClotheAccessoryOption: Option;
 export declare const HairAccessoryOption: Option;
 export declare const HairAccessoryOptionColor: Option;
 export declare const JewelleryOption: Option;
+export declare const BackgroundOption: Option;
+export declare const FaceMaskOption: Option;
 export declare const allOptions: Option[];

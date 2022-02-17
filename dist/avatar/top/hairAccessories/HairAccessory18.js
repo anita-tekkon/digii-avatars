@@ -26,7 +26,7 @@ var HairAccessory18 = /** @class */ (function (_super) {
     }
     HairAccessory18.prototype.render = function () {
         return (React.createElement("g", { id: 'HairAccessory/HairAccessory18', transform: 'translate(20.000000, 14.000000)' },
-            React.createElement("g", { id: "_18", "data-name": "18", transform: "translate(-295 -232)" },
+            React.createElement("g", { id: "_18", "data-name": "18", transform: "translate(-240 -250) scale(1.1)" },
                 React.createElement("path", { id: "Path_7414", d: "M264.8,315.4h-4a3.7,3.7,0,0,0,0,7.4h4a3.691,3.691,0,0,0,3.7-3.7,3.63,3.63,0,0,0-3.7-3.7Z", fill: "#3c3c3c" }),
                 React.createElement("path", { id: "Path_7415", d: "M318.7,241.5c-31.7,0-48.9,22.5-54.5,37.3s0,61.6,2.1,73.9,13.4,31.3,24.6,43.6,27.8,12,27.8,12,16.5.4,27.8-12S369,365,371.1,352.7s7.7-59.1,2.1-73.9S350.3,241.5,318.7,241.5Z", fill: "#d3dcd7" }),
                 React.createElement("path", { id: "Path_7417", d: "M376.6,315.4h-4a3.691,3.691,0,0,0-3.7,3.7,3.63,3.63,0,0,0,3.7,3.7h4a3.7,3.7,0,0,0,0-7.4Z", fill: "#3c3c3c" }),

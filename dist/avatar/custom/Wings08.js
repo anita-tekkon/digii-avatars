@@ -23,7 +23,7 @@ var Wings08 = /** @class */ (function (_super) {
     }
     Wings08.prototype.render = function () {
         return (React.createElement("g", { id: 'Custom/Wings08', transform: 'translate(-35.000000, 100.000000)' },
-            React.createElement("g", { id: "_08", "data-name": "08", transform: "translate(-73.576 -327.286)" },
+            React.createElement("g", { id: "_08", "data-name": "08", transform: "translate(-48 -307)" },
                 React.createElement("g", { id: "Group_1260", "data-name": "Group 1260", transform: "translate(90.064 405.134)" },
                     React.createElement("path", { id: "Path_5427", "data-name": "Path 5427", d: "M137.425,362.737s-52.849-.746-61.082,16.434S68.2,405.606,74.33,407.885s8.893,5.063,10.792,9.636,4.766,5.883,9.817,7.715a15.013,15.013,0,0,1,8.687,8.009c1.291,2.68,6.711,4.54,11.129,4.85s7.614-8.345,11.792-9.9,7.918,3.145,14.466-16.372S152.589,357.511,137.425,362.737Z", transform: "translate(-69.926 -362.209)", fill: "#4c2e80" }),
                     React.createElement("path", { id: "Path_5428", "data-name": "Path 5428", d: "M134.61,362.983s-47.378-.662-54.761,14.775-7.3,23.751-1.809,25.8,7.971,4.548,9.673,8.656,4.272,5.286,8.8,6.932a13.463,13.463,0,0,1,7.786,7.194c1.159,2.408,6.015,4.078,9.976,4.356s6.827-7.5,10.572-8.9,7.1,2.825,12.971-14.712S148.2,358.286,134.61,362.983Z", transform: "translate(-68.574 -362.112)", fill: "#8029cc" }),

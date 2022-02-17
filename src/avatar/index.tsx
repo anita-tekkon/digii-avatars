@@ -8,8 +8,10 @@ import Face from './face'
 import Skin from './Skin'
 import Top from './top'
 import Custom from './custom'
+import Background from './background'
 import ClotheAccessory from './clothes/accessories'
 import Jewellery from './top/accessories/jewellery'
+import FaceMask from './top/faceMask'
 
 export enum AvatarStyle {
   Circle = 'Circle',
@@ -85,7 +87,7 @@ export default class Avatar extends React.Component<Props> {
                   <g
                     id="Color/Palette/Blue-01"
                     mask={'url(#' + mask1 + ')'}
-                    fill={avatarStyle || "#65C9FF"}>
+                    fill={transparent? '#fff':avatarStyle || "#65C9FF"}>
                     <rect id="🖍Color" x="0" y="0" width="240" height="240" />
                   </g>
                 </g>
@@ -96,6 +98,7 @@ export default class Avatar extends React.Component<Props> {
                 </mask>
               ) : null}
               <g id="Mask" />
+              <Background/>
         <Custom/>
 
               <g
@@ -125,8 +128,9 @@ export default class Avatar extends React.Component<Props> {
                 <Top>
                   <HairAccessories/>
                   <Accessories />
-                </Top>
                   <Jewellery/>
+                  <FaceMask/>
+                </Top>
 
               </g>
             </g>

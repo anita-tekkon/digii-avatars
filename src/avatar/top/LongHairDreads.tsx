@@ -60,7 +60,12 @@ export default class LongHairDreads extends React.Component {
                 mask={`url(#${mask1})`}
               />
             </g>
-            {this.props.children}
+            {this.props.children ?
+           <>
+           {this.props.children[0]}
+           {this.props.children[1]}
+           </>
+           : this.props.children}
             <g
               id='Group-74'
               strokeWidth='1'

@@ -25,6 +25,11 @@ var MoustacheMagnum_1 = require("./MoustacheMagnum");
 var FacialHair2_1 = require("./FacialHair2");
 var FacialHair3_1 = require("./FacialHair3");
 var FacialHair4_1 = require("./FacialHair4");
+var FacialHair6_1 = require("./FacialHair6");
+var FacialHair7_1 = require("./FacialHair7");
+var FacialHair8_1 = require("./FacialHair8");
+var FacialHair9_1 = require("./FacialHair9");
+var FacialHair11_1 = require("./FacialHair11");
 var options_1 = require("../../../options");
 var FacialHair = /** @class */ (function (_super) {
     __extends(FacialHair, _super);
@@ -41,7 +46,12 @@ var FacialHair = /** @class */ (function (_super) {
             React.createElement(MoustacheMagnum_1.default, null),
             React.createElement(FacialHair2_1.default, null),
             React.createElement(FacialHair3_1.default, null),
-            React.createElement(FacialHair4_1.default, null)));
+            React.createElement(FacialHair4_1.default, null),
+            React.createElement(FacialHair6_1.default, null),
+            React.createElement(FacialHair7_1.default, null),
+            React.createElement(FacialHair8_1.default, null),
+            React.createElement(FacialHair9_1.default, null),
+            React.createElement(FacialHair11_1.default, null)));
     };
     return FacialHair;
 }(React.Component));

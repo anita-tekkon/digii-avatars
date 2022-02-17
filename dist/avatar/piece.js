@@ -28,8 +28,10 @@ var mouth_1 = require("./face/mouth");
 var nose_1 = require("./face/nose");
 var Skin_1 = require("./Skin");
 var custom_1 = require("./custom");
+var background_1 = require("./background");
 var accessories_2 = require("./clothes/accessories");
 var hairAccessories_1 = require("./top/hairAccessories");
+var faceMask_1 = require("./top/faceMask");
 var jewellery_1 = require("./top/accessories/jewellery");
 var AvatarStyle;
 (function (AvatarStyle) {
@@ -54,10 +56,12 @@ var PieceComponent = /** @class */ (function (_super) {
             this.props.pieceType === 'mouth' && React.createElement(mouth_1.default, null),
             this.props.pieceType === 'nose' && React.createElement(nose_1.default, null),
             this.props.pieceType === 'skin' && React.createElement(Skin_1.default, { maskID: "5678" }),
-            this.props.pieceType === 'custom' && React.createElement(custom_1.default, null),
+            this.props.pieceType === 'addons' && React.createElement(custom_1.default, null),
             this.props.pieceType === 'cotheAccessory' && React.createElement(accessories_2.default, null),
             this.props.pieceType === 'hairAccessory' && React.createElement(hairAccessories_1.default, null),
-            this.props.pieceType === 'jewellery' && React.createElement(jewellery_1.default, null)));
+            this.props.pieceType === 'jewellery' && React.createElement(jewellery_1.default, null),
+            this.props.pieceType === 'background' && React.createElement(background_1.default, null),
+            this.props.pieceType === 'faceMask' && React.createElement(faceMask_1.default, null)));
     };
     return PieceComponent;
 }(React.Component));

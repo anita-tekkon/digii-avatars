@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.allOptions = exports.JewelleryOption = exports.HairAccessoryOptionColor = exports.HairAccessoryOption = exports.ClotheAccessoryOption = exports.CustomAccessoryColor = exports.CustomOption = exports.SkinOption = exports.MouthOption = exports.EyebrowOption = exports.EyesOption = exports.GraphicOption = exports.ClotheColorOption = exports.ClotheOption = exports.FacialHairColor = exports.FacialHairOption = exports.HairColorOption = exports.HatColorOption = exports.AccessoriesOption = exports.TopOption = exports.Selector = exports.OptionContext = exports.Option = void 0;
+exports.allOptions = exports.FaceMaskOption = exports.BackgroundOption = exports.JewelleryOption = exports.HairAccessoryOptionColor = exports.HairAccessoryOption = exports.ClotheAccessoryOption = exports.CustomAccessoryColor = exports.CustomOption = exports.SkinOption = exports.MouthOption = exports.EyebrowOption = exports.EyesOption = exports.GraphicOption = exports.ClotheColorOption = exports.ClotheOption = exports.FacialHairColor = exports.FacialHairOption = exports.HairColorOption = exports.HatColorOption = exports.AccessoriesOption = exports.TopOption = exports.Selector = exports.OptionContext = exports.Option = void 0;
 var Option_1 = require("./Option");
 var Option_2 = require("./Option");
 Object.defineProperty(exports, "Option", { enumerable: true, get: function () { return Option_2.default; } });
@@ -61,8 +61,8 @@ exports.SkinOption = new Option_1.default({
     label: '🎨 Skin',
 });
 exports.CustomOption = new Option_1.default({
-    key: 'custom',
-    label: '🎨 Custom',
+    key: 'addons',
+    label: '🎨 Addons',
 });
 exports.CustomAccessoryColor = new Option_1.default({
     key: 'customAccessoryColor',
@@ -84,6 +84,14 @@ exports.JewelleryOption = new Option_1.default({
     key: 'jewellery',
     label: 'Jewellery',
 });
+exports.BackgroundOption = new Option_1.default({
+    key: 'background',
+    label: 'Background',
+});
+exports.FaceMaskOption = new Option_1.default({
+    key: 'faceMask',
+    label: 'Face Mask',
+});
 exports.allOptions = [
     exports.TopOption,
     exports.AccessoriesOption,
@@ -103,5 +111,7 @@ exports.allOptions = [
     exports.ClotheAccessoryOption,
     exports.HairAccessoryOption,
     exports.HairAccessoryOptionColor,
-    exports.JewelleryOption
+    exports.JewelleryOption,
+    exports.BackgroundOption,
+    exports.FaceMaskOption
 ];

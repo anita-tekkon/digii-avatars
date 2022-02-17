@@ -9,6 +9,11 @@ import MoustacheMagnum from './MoustacheMagnum'
 import FacialHair2 from './FacialHair2'
 import FacialHair3 from './FacialHair3'
 import FacialHair4 from './FacialHair4'
+import FacialHair6 from './FacialHair6'
+import FacialHair7 from './FacialHair7'
+import FacialHair8 from './FacialHair8'
+import FacialHair9 from './FacialHair9'
+import FacialHair11 from './FacialHair11'
 import { FacialHairOption, Selector } from '../../../options'
 
 export default class FacialHair extends React.Component {
@@ -24,6 +29,11 @@ export default class FacialHair extends React.Component {
         <FacialHair2/>
         <FacialHair3/>
         <FacialHair4/>
+        <FacialHair6/>
+        <FacialHair7/>
+        <FacialHair8/>
+        <FacialHair9/>
+        <FacialHair11/>
       </Selector>
     )
   }
