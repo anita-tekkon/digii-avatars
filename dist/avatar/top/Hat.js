@@ -57,7 +57,8 @@ var Hat = /** @class */ (function (_super) {
                     this.props.children ?
                         React.createElement(React.Fragment, null,
                             this.props.children[1],
-                            this.props.children[2])
+                            this.props.children[2],
+                            this.props.children[3])
                         : this.props.children))));
     };
     Hat.optionValue = 'Hat';

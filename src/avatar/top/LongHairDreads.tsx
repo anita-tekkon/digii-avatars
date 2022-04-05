@@ -64,6 +64,7 @@ export default class LongHairDreads extends React.Component {
            <>
            {this.props.children[0]}
            {this.props.children[1]}
+           {this.props.children[3]}
            </>
            : this.props.children}
             <g

@@ -17,6 +17,7 @@ var __extends = (this && this.__extends) || (function () {
 Object.defineProperty(exports, "__esModule", { value: true });
 var React = require("react");
 // import { uniqueId } from 'lodash'
+var facialHair_1 = require("./facialHair");
 // import Colors from './Colors'
 // copied bowtie
 var Hair23 = /** @class */ (function (_super) {
@@ -36,8 +37,10 @@ var Hair23 = /** @class */ (function (_super) {
                         React.createElement("path", { d: "M96.9,71.1C69.7,56,49.7,56.6,49.7,56.6S29.6,56,2.5,71.1c0,0-1.3,6.8-1.2,11.2c-0.1,2.6,0.2,4.8,1.2,5.3\n              C5.1,88.8,24,72.9,49.7,72.9s44.6,15.9,47.2,14.7c1-0.5,1.2-2.7,1.2-5.3C98.2,77.9,96.9,71.1,96.9,71.1z", fill: "#FF0000" })))),
             this.props.children ?
                 React.createElement(React.Fragment, null,
+                    React.createElement(facialHair_1.default, null),
                     this.props.children[1],
-                    this.props.children[2])
+                    this.props.children[2],
+                    this.props.children[3])
                 : this.props.children));
     };
     Hair23.optionValue = 'Hair23';

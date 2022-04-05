@@ -25,7 +25,7 @@ export default class Cloth18 extends React.Component {
           <path 
             id={path1}
             d="M197.718,388.175c-10.4,15.6-32.7,26.393-58.545,26.393s-48.139-10.79-58.544-26.393c-18.516,9.569-36.763,27.923-32.967,67.756H230.684C234.481,416.1,216.234,397.744,197.718,388.175Z" 
-            transform="translate(-19 -379) scale(1.08)" 
+            transform="translate(-19 -382) scale(1.08)" 
           />
           <path
             opacity="0.7"

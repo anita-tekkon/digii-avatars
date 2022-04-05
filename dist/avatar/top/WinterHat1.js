@@ -55,7 +55,9 @@ var WinterHat1 = /** @class */ (function (_super) {
                     React.createElement("use", { fill: "black", fillOpacity: "1", filter: "url(#".concat(path2, ")"), xlinkHref: '#' + path2 }),
                     React.createElement("use", { fill: "#F4F4F4", fillRule: "evenodd", xlinkHref: '#' + path2 })),
                 React.createElement(facialHair_1.default, null),
-                this.props.children ? this.props.children[1] : this.props.children)));
+                this.props.children ? React.createElement(React.Fragment, null,
+                    this.props.children[1],
+                    this.props.children[3]) : this.props.children)));
     };
     WinterHat1.optionValue = 'WinterHat1';
     return WinterHat1;

@@ -25,7 +25,7 @@ var Hairband = /** @class */ (function (_super) {
         return _super !== null && _super.apply(this, arguments) || this;
     }
     Hairband.prototype.render = function () {
-        return (React.createElement("g", { id: 'HairAccessory/Hairband', transform: 'translate(20.000000, 14.000000)' },
+        return (React.createElement("g", { id: 'HairAccessory/Hairband', transform: 'translate(18.000000, 14.000000) scale(1.05)' },
             React.createElement("g", { id: "Group_120", "data-name": "Group 120", transform: "translate(-688.116 -611.287)" },
                 React.createElement("path", { d: "M772.276,652.02l-.011.006c-17.285,9.324-24.31,27.909-24.31,27.909,2.553-18.723,21.145-29.4,21.145-29.4h0c-.379-.215-.754-.438-1.121-.674a23.117,23.117,0,0,1-4.165-3.465c-30.105,18.982-18.5,61.019-18.5,61.019s3.3-44.1,40.829-51.741a8.577,8.577,0,0,1-.517-2.493A24.567,24.567,0,0,1,772.276,652.02Z", transform: "translate(0 -18.836)", fill: "#a32f51" }),
                 React.createElement("path", { d: "M908.419,646.4a23.134,23.134,0,0,1-4.165,3.465c-.367.237-.742.459-1.121.674h0s18.591,10.674,21.145,29.4c0,0-7.024-18.586-24.31-27.909l-.011-.006a24.567,24.567,0,0,1-13.35,1.161,8.577,8.577,0,0,1-.517,2.493c37.532,7.643,40.829,51.741,40.829,51.741S938.524,665.379,908.419,646.4Z", transform: "translate(-76.704 -18.836)", fill: "#a32f51" }),

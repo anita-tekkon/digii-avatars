@@ -7,7 +7,7 @@ export default class GooglyHalf extends React.Component {
     return (
       <g id='Eyes/GooglyHalf' transform='translate(16.000000, 18.000000)'>
      <g id="eyes" transform="translate(-587.88 -377.823)">
-    <g id="Group_183" data-name="Group 183" transform="translate(587.88 377.823)">
+    <g id="Group_183" data-name="Group 183" transform="translate(585 378)">
       <g id="Group_182" data-name="Group 182" transform="translate(1.573 1.694)">
         <g id="Group_181" data-name="Group 181">
           <path id="Path_728" data-name="Path 728" d="M591.678,399.114a15.776,15.776,0,1,0,29.962,0Z" transform="translate(-590.883 -399.114)" fill="#fff"/>
@@ -16,7 +16,7 @@ export default class GooglyHalf extends React.Component {
         </g>
       </g>
     </g>
-    <g id="Group_186" data-name="Group 186" transform="translate(635.4 377.823)">
+    <g id="Group_186" data-name="Group 186" transform="translate(636 378)">
       <g id="Group_185" data-name="Group 185" transform="translate(1.72 1.694)">
         <g id="Group_184" data-name="Group 184">
           <path id="Path_731" data-name="Path 731" d="M682.678,399.114a15.776,15.776,0,1,0,29.962,0Z" transform="translate(-681.883 -399.114)" fill="#fff"/>

@@ -12,7 +12,7 @@ export default class Hairband extends React.Component {
     return (
       <g
         id='HairAccessory/Hairband'
-        transform='translate(20.000000, 14.000000)'
+        transform='translate(18.000000, 14.000000) scale(1.05)'
         >
         {/* <defs> */}
         <g id="Group_120" data-name="Group 120" transform="translate(-688.116 -611.287)">

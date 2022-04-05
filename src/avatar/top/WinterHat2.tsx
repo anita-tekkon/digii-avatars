@@ -108,7 +108,12 @@ export default class WinterHat2 extends React.Component {
             </g>
           </g>
           <FacialHair />
-          {this.props.children ?this.props.children[1]: this.props.children}
+          {this.props.children ?
+          <>
+          {this.props.children[1]}
+          {this.props.children[3]}
+          </>
+          : this.props.children}
         </g>
       </g>
     )

@@ -26,7 +26,7 @@ var Hearts = /** @class */ (function (_super) {
     }
     Hearts.prototype.render = function () {
         var filter1 = this.filter1;
-        return (React.createElement("g", { id: 'Top/_Resources/Hearts', fill: 'none', transform: 'translate(62.000000, 85.000000)', strokeWidth: '1' },
+        return (React.createElement("g", { id: 'Top/_Resources/Hearts', fill: 'none', transform: 'translate(61.000000, 85.000000)', strokeWidth: '1' },
             React.createElement("defs", null,
                 React.createElement("filter", { x: '-0.8%', y: '-2.0%', width: '101.5%', height: '108.0%', filterUnits: 'objectBoundingBox', id: filter1 },
                     React.createElement("feOffset", { dx: '0', dy: '2', in: 'SourceAlpha', result: 'shadowOffsetOuter1' }),
@@ -35,7 +35,7 @@ var Hearts = /** @class */ (function (_super) {
                         React.createElement("feMergeNode", { in: 'shadowMatrixOuter1' }),
                         React.createElement("feMergeNode", { in: 'SourceGraphic' })))),
             React.createElement("g", { id: 'Hearts', filter: "url(#".concat(filter1, ")"), transform: 'translate(10.000000, 5.000000) scale(1.12)' },
-                React.createElement("g", { id: "Group_3", "data-name": "Group 3", transform: "translate(-94.915 -1183.321)" },
+                React.createElement("g", { id: "Group_3", "data-name": "Group 3", transform: "translate(-108 -1273) scale(1.08)" },
                     React.createElement("g", { id: "Group_1", "data-name": "Group 1", transform: "translate(98.293 1183.321)" },
                         React.createElement("path", { id: "Path_4", "data-name": "Path 4", d: "M155.44,1183.994c-7.094-2.542-14.092,2.942-14.092,2.942s-7-5.484-14.092-2.942-11.614,10.452-8.083,18.08,22.175,16.808,22.175,16.808,18.644-9.181,22.176-16.808S162.534,1186.536,155.44,1183.994Z", transform: "translate(-117.945 -1183.321)", fill: "#f06" }),
                         React.createElement("path", { id: "Path_5", "data-name": "Path 5", d: "M171.7,1204.885c-6.149-2.051-12.215,2.372-12.215,2.372s-6.065-4.423-12.215-2.372-10.067,8.43-7.006,14.581,19.221,13.556,19.221,13.556,16.16-7.4,19.221-13.556S177.852,1206.935,171.7,1204.885Z", transform: "translate(-136.085 -1201.259)", fill: "#2b2b2b" }),

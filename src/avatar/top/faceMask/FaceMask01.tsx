@@ -8,7 +8,7 @@ export default class FaceMask01 extends React.Component {
       <g
         id='Custom/FaceMask01'
         transform='translate(-35.000000, 100.000000)'>
-          <g id="_01" data-name="01" transform="translate(-49 -114) scale(1.08)">
+          <g id="_01" data-name="01" transform="translate(-50 -113) scale(1.08)">
             <path id="Path_7810" data-name="Path 7810" d="M275.275,145.9c.623-4.282,1.181-8.906,1.682-13.625-2.514,2.425-7.726,5.365-18.375,5.591-12.08.256-19.787-8.812-33.1-8.812s-21.023,9.068-33.1,8.812c-10.651-.227-15.862-3.167-18.375-5.591.5,4.719,1.058,9.343,1.682,13.625,3.662,25.141,25.263,41.469,49.793,41.469S271.613,171.041,275.275,145.9Z" transform="translate(-23.448 -2.089)" fill="#3c4e78"/>
             <g id="Group_1430" data-name="Group 1430" transform="translate(154.934 132.605)">
               <path id="Path_7811" data-name="Path 7811" d="M203.616,136.715a6.224,6.224,0,0,0,3.187,2.8,7.224,7.224,0,0,0-4.249-6.913A6.222,6.222,0,0,0,203.616,136.715Z" transform="translate(-154.934 -132.605)" fill="#d6ab1b"/>

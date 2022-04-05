@@ -27,7 +27,7 @@ export default class Cloth17 extends React.Component {
          id={path4}
           data-name="left jacket"
           d="M609.973,153.055l10.445,78.573H553.735S546.5,164.8,609.973,153.055Z" 
-          transform="translate(-576 -139) scale(1.1)" 
+          transform="translate(-576 -141) scale(1.1)" 
           fill="#f6f6f6"
           />
           <path 
@@ -35,7 +35,7 @@ export default class Cloth17 extends React.Component {
             opacity="0.8"
             data-name="Left collar"
             d="M603.915,153.055l10.445,78.573-28.12-49.673L597.488,164.8l-14.461-6.322A56.108,56.108,0,0,1,603.915,153.055Z" 
-             transform="translate(-571 -137) scale(1.1)" 
+             transform="translate(-571 -139) scale(1.1)" 
           />
           <path
             id={path2}

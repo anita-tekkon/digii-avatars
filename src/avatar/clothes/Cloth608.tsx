@@ -34,7 +34,7 @@ export default class Cloth608 extends React.Component {
             id={path1}
             data-name="Tie"
             d="M290.264,83.983l-.085-.238,9.789-13.114H276l9.795,13.114-.087.238a94.319,94.319,0,0,0-5.026,22.6l-3.034,31.657h20.686L295.3,106.586A94.067,94.067,0,0,0,290.264,83.983Z" 
-            transform="translate(-184 -40)" 
+            transform="translate(-156 -30)" 
           />
            <path 
             data-name="Shirt-Collar"

@@ -23,7 +23,7 @@ var Wings11 = /** @class */ (function (_super) {
     }
     Wings11.prototype.render = function () {
         return (React.createElement("g", { id: 'Custom/Wings11', transform: 'translate(-35.000000, 100.000000)' },
-            React.createElement("g", { id: "_11", "data-name": "11", transform: "translate(-93 -1283)" },
+            React.createElement("g", { id: "_11", "data-name": "11", transform: "translate(-93 -1243)" },
                 React.createElement("g", { id: "Group_1168", "data-name": "Group 1168", transform: "matrix(0.999, 0.052, -0.052, 0.999, 123.331, 1280.487)" },
                     React.createElement("g", { id: "Group_1167", "data-name": "Group 1167", transform: "translate(68.821 2.986)" },
                         React.createElement("path", { id: "Path_4309", "data-name": "Path 4309", d: "M12.419,13.656c-1.483-1.228-3.577-1.725-4.7-3.293-1.284-1.8-.785-4.282-.083-6.379a9.055,9.055,0,0,1,1.3-2.724A3.922,3.922,0,0,1,10.572,0,13.818,13.818,0,0,0,.078,14.926C.326,17.219,1.318,18.4,2.9,19.915c1.3,1.24,1.928,2.906,3.719,3.6a5.987,5.987,0,0,0,7.1-2.463A5.988,5.988,0,0,0,12.419,13.656Z", transform: "translate(0 0)", fill: "#ffb90b" })),

@@ -52,7 +52,8 @@ var LongHairDreads = /** @class */ (function (_super) {
                     this.props.children ?
                         React.createElement(React.Fragment, null,
                             this.props.children[0],
-                            this.props.children[1])
+                            this.props.children[1],
+                            this.props.children[3])
                         : this.props.children,
                     React.createElement("g", { id: 'Group-74', strokeWidth: '1', fillRule: 'evenodd', transform: 'translate(44.000000, 33.000000)' })))));
     };

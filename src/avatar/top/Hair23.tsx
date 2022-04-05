@@ -1,5 +1,6 @@
 import * as React from 'react'
 // import { uniqueId } from 'lodash'
+import FacialHair from './facialHair'
 
 // import Colors from './Colors'
 
@@ -37,8 +38,10 @@ export default class Hair23 extends React.Component {
         </g>
         {this.props.children ?
             <>
+            <FacialHair />
             {this.props.children[1]}
             {this.props.children[2]}
+            {this.props.children[3]}
             </>
             : this.props.children}
       </g>

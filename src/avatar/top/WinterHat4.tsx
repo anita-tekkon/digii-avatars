@@ -123,6 +123,7 @@ export default class WinterHat4 extends React.Component {
            <>
            {this.props.children[1]}
            {this.props.children[2]}
+           {this.props.children[3]}
            </>
            : this.props.children}
         </g>

@@ -7,7 +7,7 @@ export default class GooglyConfused extends React.Component {
     return (
       <g id='Eyes/GooglyConfused' transform='translate(15.000000, 12.000000)'>
       <g id="Group_179" data-name="Group 179" transform="translate(-325.32 -634.437)">
-    <g id="Group_174" data-name="Group 174" transform="translate(325.32 634.437)">
+    <g id="Group_174" data-name="Group 174" transform="translate(319 634)">
       <g id="Group_173" data-name="Group 173" transform="translate(1.645 1.736)">
         <g id="Group_172" data-name="Group 172">
           <path id="Path_716" data-name="Path 716" d="M328.383,668.732a16.18,16.18,0,1,0,16.179-16.18A16.179,16.179,0,0,0,328.383,668.732Z" transform="translate(-328.383 -652.552)" fill="#fff"/>
@@ -21,7 +21,7 @@ export default class GooglyConfused extends React.Component {
         </g>
       </g>
     </g>
-    <g id="Group_178" data-name="Group 178" transform="translate(369.93 634.437)">
+    <g id="Group_178" data-name="Group 178" transform="translate(378 634)">
       <g id="Group_177" data-name="Group 177" transform="translate(1.624 1.736)">
         <g id="Group_176" data-name="Group 176">
           <path id="Path_722" data-name="Path 722" d="M411.383,668.732a16.179,16.179,0,1,0,16.179-16.18A16.179,16.179,0,0,0,411.383,668.732Z" transform="translate(-411.383 -652.552)" fill="#fff"/>

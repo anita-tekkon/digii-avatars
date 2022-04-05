@@ -87,7 +87,7 @@ export default class Avatar extends React.Component<Props> {
                   <g
                     id="Color/Palette/Blue-01"
                     mask={'url(#' + mask1 + ')'}
-                    fill={transparent? '#fff':avatarStyle || "#65C9FF"}>
+                    fill={transparent ||avatarStyle ===  AvatarStyle.Circle? '#fff':avatarStyle || "#65C9FF"}>
                     <rect id="🖍Color" x="0" y="0" width="240" height="240" />
                   </g>
                 </g>

@@ -83,7 +83,12 @@ export default class Hijab extends React.Component {
               opacity='0.899999976'
               mask={`url(#${mask2})`}
             />
-              {this.props.children ?this.props.children[1]: this.props.children}
+              {this.props.children ?
+              <>
+              {this.props.children[1]}
+              {this.props.children[3]}
+              </>
+              : this.props.children}
           </g>
         </g>
       </g>

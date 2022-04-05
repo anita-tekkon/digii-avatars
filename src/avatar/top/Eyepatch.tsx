@@ -29,6 +29,13 @@ export default class Eyepatch extends React.Component {
               fill='#28354B'
               fillRule='evenodd'
             />
+            {this.props.children ?
+            <>
+            {this.props.children[0]}
+            {this.props.children[2]}
+            {this.props.children[3]}
+            </>
+            : this.props.children}
           </g>
         </g>
       </g>

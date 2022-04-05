@@ -64,7 +64,11 @@ var WinterHat2 = /** @class */ (function (_super) {
                         React.createElement("polygon", { id: 'Triangle', points: '74.5 0 87 18 62 18' }),
                         React.createElement("polygon", { id: 'Triangle', points: '105.5 0 118 18 93 18' }))),
                 React.createElement(facialHair_1.default, null),
-                this.props.children ? this.props.children[1] : this.props.children)));
+                this.props.children ?
+                    React.createElement(React.Fragment, null,
+                        this.props.children[1],
+                        this.props.children[3])
+                    : this.props.children)));
     };
     WinterHat2.optionValue = 'WinterHat2';
     return WinterHat2;

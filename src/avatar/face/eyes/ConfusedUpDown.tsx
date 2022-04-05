@@ -7,7 +7,7 @@ export default class ConfusedUpDown extends React.Component {
     return (
       <g id='Eyes/ConfusedUpDown' transform='translate(12.000000, 14.000000)'>
        <g id="Group_140" data-name="Group 140" transform="translate(-587.24 -100.358)">
-    <g id="Group_135" data-name="Group 135" transform="translate(587.24 100.358)">
+    <g id="Group_135" data-name="Group 135" transform="translate(588 100) scale(0.9)">
       
       <g id="Group_134" data-name="Group 134" transform="translate(1.154 1.276)">
         <g id="Group_133" data-name="Group 133">
@@ -17,7 +17,7 @@ export default class ConfusedUpDown extends React.Component {
         </g>
       </g>
     </g>
-    <g id="Group_138" data-name="Group 138" transform="translate(639.083 100.358)">
+    <g id="Group_138" data-name="Group 138" transform="translate(643 100) scale(0.9)">
       
       <g id="Group_137" data-name="Group 137" transform="translate(1.382 1.276)">
         <g id="Group_136" data-name="Group 136" transform="translate(0)">

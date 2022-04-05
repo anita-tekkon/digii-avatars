@@ -7,7 +7,7 @@ export default class GooglyFull extends React.Component {
     return (
       <g id='Eyes/GooglyFull' transform='translate(14.000000, 14.000000)'>
       <g id="Group_198" data-name="Group 198" transform="translate(-55.56 -634.915)">
-    <g id="Group_191" data-name="Group 191" transform="translate(55.56 634.915)">
+    <g id="Group_191" data-name="Group 191" transform="translate(54 634) scale(0.9)">
       <g id="Group_190" data-name="Group 190" transform="translate(1.776 1.746)">
         <g id="Group_189" data-name="Group 189">
           <path id="Path_736" data-name="Path 736" d="M58.882,676.845a16.1,16.1,0,1,0,16.1-16.1A16.1,16.1,0,0,0,58.882,676.845Z" transform="translate(-58.882 -660.746)" fill="#fff"/>
@@ -16,7 +16,7 @@ export default class GooglyFull extends React.Component {
         </g>
       </g>
     </g>
-    <g id="Group_194" data-name="Group 194" transform="translate(103.284 634.915)">
+    <g id="Group_194" data-name="Group 194" transform="translate(109 634) scale(0.9)">
       <g id="Group_193" data-name="Group 193" transform="translate(1.626 1.746)">
         <g id="Group_192" data-name="Group 192">
           <path id="Path_739" data-name="Path 739" d="M147.882,676.845a16.1,16.1,0,1,0,16.1-16.1A16.1,16.1,0,0,0,147.882,676.845Z" transform="translate(-147.882 -660.746)" fill="#fff"/>
